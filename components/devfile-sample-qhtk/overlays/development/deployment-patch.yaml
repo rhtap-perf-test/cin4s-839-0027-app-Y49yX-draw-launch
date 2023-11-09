@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-qhtk
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0027-tenant/cin4s-839-0027-app/devfile-sample-qhtk@sha256:4553ad9e008e5bbdfd87b2f95db1ccc5c9cb6e312c83b40af2cc7960b1fcdabe
+        name: my-nodejs
+        resources: {}
+status: {}
